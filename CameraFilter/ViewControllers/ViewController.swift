@@ -34,9 +34,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func applyFilter(_ sender: Any) {
-        FilterService().applyFilter(to: self.imageView.image!) { image in
-            self.imageView.image = image
-        }
+        FilterService().applyFilter(to: self.imageView.image!).subscribe(onNext: {filteredImage in
+            self.imageView.image = filteredImage
+        }).disposed(by: disposeBag)
     }
 }
 

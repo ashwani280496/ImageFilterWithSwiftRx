@@ -20,7 +20,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="externaldrive.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gOg-vi-uPl">
                                 <rect key="frame" x="0.0" y="90" width="414" height="623"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sf9-Im-axs">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sf9-Im-axs">
                                 <rect key="frame" x="173.5" y="755" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
@@ -48,6 +48,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="applyFilterButton" destination="sf9-Im-axs" id="9ee-ci-iQx"/>
                         <outlet property="imageView" destination="gOg-vi-uPl" id="9Bw-r0-q2K"/>
                     </connections>
                 </viewController>

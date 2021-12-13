@@ -16,6 +16,7 @@
 		C329AC012755DD6100EAE63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329ABFF2755DD6100EAE63F /* LaunchScreen.storyboard */; };
 		C329AC0C2755DEEE00EAE63F /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329AC0B2755DEEE00EAE63F /* PhotosCollectionViewController.swift */; };
 		C371AC852767B79A003F5ABE /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371AC842767B79A003F5ABE /* PhotoCollectionViewCell.swift */; };
+		C371AC872767DB81003F5ABE /* FliterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371AC862767DB81003F5ABE /* FliterService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C329AC022755DD6100EAE63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C329AC0B2755DEEE00EAE63F /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		C371AC842767B79A003F5ABE /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C371AC862767DB81003F5ABE /* FliterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FliterService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C329ABF82755DD5D00EAE63F /* ViewController.swift */,
+				C371AC862767DB81003F5ABE /* FliterService.swift */,
 				C329AC0B2755DEEE00EAE63F /* PhotosCollectionViewController.swift */,
 			);
 			path = ViewControllers;
@@ -225,6 +228,7 @@
 				C329ABF52755DD5D00EAE63F /* AppDelegate.swift in Sources */,
 				C329ABF72755DD5D00EAE63F /* SceneDelegate.swift in Sources */,
 				C329AC0C2755DEEE00EAE63F /* PhotosCollectionViewController.swift in Sources */,
+				C371AC872767DB81003F5ABE /* FliterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
